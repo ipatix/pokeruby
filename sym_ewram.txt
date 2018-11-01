@@ -403,4 +403,7 @@ gUnknown_02039460 = .; /* 2039460 */
 gUnknown_02039760 = .; /* 2039760 */
     . += 0xC00;
 
+gSoundInfo = .;
+    . += 0xFB0;
+
 . = ALIGN(4); src/menu_cursor.o(ewram_data);
